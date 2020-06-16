@@ -1,3 +1,15 @@
+# v1.1.0 (Tue Jun 16 2020)
+
+#### 🚀 Enhancement
+
+- This is a test branch [#6](https://github.com/dariye/test-automated-release/pull/6) ([@dariye](https://github.com/dariye))
+
+#### Authors: 1
+
+- Paul Dariye ([@dariye](https://github.com/dariye))
+
+---
+
 # v1.0.3 (Tue Jun 16 2020)
 
 #### 🐛 Bug Fix
