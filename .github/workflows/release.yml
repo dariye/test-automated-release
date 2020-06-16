@@ -16,6 +16,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12.x
+          registry-url: 'https://npm.pkg.github.com'
 
       - name: Cache node modules
         uses: actions/cache@v1
@@ -28,7 +29,8 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NPM_TOKEN: ${{secrets.NPM_TOKEN}}
         run: |
-          yarn install --frozen-lockfile
           npm config set '//npm.pkg.github.com/:_authToken' "${{ secrets.GITHUB_TOKEN }}"
+          yarn install --frozen-lockfile
           npx auto shipit

@@ -1,2 +1,3 @@
 console.log("hello")
-console.log('This is pretty cool as well')
+
+console.log('ya ya ya')
