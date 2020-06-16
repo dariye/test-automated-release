@@ -1,3 +1,16 @@
+# v1.0.3 (Tue Jun 16 2020)
+
+#### 🐛 Bug Fix
+
+- Feature 3 [#3](https://github.com/dariye/test-automated-release/pull/3) ([@dariye](https://github.com/dariye))
+- Feature 2 [#2](https://github.com/dariye/test-automated-release/pull/2) ([@dariye](https://github.com/dariye))
+
+#### Authors: 1
+
+- Paul Dariye ([@dariye](https://github.com/dariye))
+
+---
+
 # v1.0.2 (Tue Jun 16 2020)
 
 #### 🐛 Bug Fix
