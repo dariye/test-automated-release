@@ -1,6 +1,6 @@
 name: Releaes
 
-on [push]
+on: [push]
 
 jobs:
   release:
@@ -28,7 +28,7 @@ jobs:
       - name: Create release
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          GITHUB_NPM_TOKEN: ${{secrets.GITHUB_NPM_TOKEN}}
           run: |
             yarn install --frozen-lockfile
+            npm config set '//npm.pkg.github.com/:_authToken' "${{ secrets.GITHUB_TOKEN }}"
             npx auto shipit
