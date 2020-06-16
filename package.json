@@ -1,0 +1,11 @@
+{
+  "name": "test-automated-release",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dariye/test-automated-release.git",
+  "author": "Paul Dariye <paul.dariye@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "auto": "^9.39.0"
+  }
+}
